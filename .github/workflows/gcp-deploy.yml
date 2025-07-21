@@ -2,11 +2,7 @@ name: Build, Push & Deploy to GCP Artifact Registry & Cloud Run
 
 on:
   push:
-    paths:
-      - 'frontend/**'
-      - '.github/workflows/gcp-deploy.yml'
   workflow_dispatch:
-
 env:
   PROJECT_ID: healthy-highway-466213-h9
   REGION: europe-west1
